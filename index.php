@@ -11,7 +11,7 @@ $con=mysqli_connect('localhost','root','','2020469136');
 
     <title>Starbucks Coffee</title>
     <link rel="icon" href="img/starbucks2.ico" type="image/x-icon">
-    <link rel="stylesheet" href="index_style.css">
+    <link rel="stylesheet" href="css/index_style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
 </head>

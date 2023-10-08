@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color:#008148;
+    --second-color:#1e3932; 
+    
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;    
+}
+
+.c-main-container {
+    flex: 1;
+}
+
+
+::selection{
+    color:#fff;
+    background:var(--main-color)
+}
+img{
+    width:100%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#fff;
+    box-shadow: 0 4px 41px rgb(14 55 54 / 14%);
+    padding: 15px 10%;
+    transition: 0.2s;
+}
+
+.logo{
+    display: flex;
+    align-items:center;
+
+}
+.logo img{
+    width: 40px;
+}
+.navbar{
+    display:flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 11px 20px;
+    color:var(--second-color);
+    font-weight: 600;
+   
+}
+.navbar a:hover{
+    color:var(--main-color);
+}
+ul.navbar li ul{
+    display: none;
+    position: absolute;
+   background-color: #fff;
+    top:1px;
+    margin-top: 50px;
+    line-height: 50px;
+    text-transform: none;
+}
+ul.navbar li:hover ul{
+    display: block;
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+.container{
+    width: 100%;
+   margin-top: 100px;
+    height: auto;
+
+    
+}
+
+
+.sidebar{
+    background-color: #ffffff;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    line-height: 50px;
+    height: auto;
+    width: 270px;
+    margin-left: 30px;
+    margin-top: 150px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.sidebar a{
+    font-size: 1rem;
+    padding: 11px 20px;
+    color:var(--second-color);
+    font-weight: 600;
+   
+}  
+.sidebar a:hover{
+    color:#008148;
+}
+.right{
+   
+    width: 1000px;
+    float: left;
+}
+.member-form{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 12px 15px 8px 15px;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    width: 400px;
+    margin-left: 30px;
+    float: left;
+  
+    
+}
+.password-form{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 12px 15px 8px 15px;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    width: 400px;
+    margin-left: 30px;
+    float: left;
+    
+}
+.adres-form{
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 12px 15px 8px 15px;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 50px;
+    /* float: left; */
+  
+    
+}
+input{
+    border-radius: 8px;
+    border: 1px solid #E6E6E6;
+    width: 250px;
+    height: 30px;
+}
+.buton{
+    padding: 7px 16px;
+    border: 0.2px solid var(--second-color);
+    border-radius: 40px;
+    color:white;
+    background-color: rgb(19, 18, 18);
+    font-weight: 500;
+   
+}
+.buton:hover{
+    color:#fff;
+    background-color: var(--main-color);
+    border: 0.2px solid var(--main-color);
+   
+}
+   /*
+
+
+.right{
+   width: 300px;
+   height: 500px;
+    padding: 12px 15px 8px 15px;
+    margin-bottom: 8px;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.buton{
+    padding: 7px 16px;
+    border: 0.2px solid var(--second-color);
+    border-radius: 40px;
+    color:white;
+    background-color: rgb(19, 18, 18);
+    font-weight: 500;
+   
+}
+.buton:hover{
+    color:#fff;
+    background-color: var(--main-color);
+    border: 0.2px solid var(--main-color);
+   
+}
+.enright{
+    box-sizing: border-box;
+    padding: 12px 15px 8px 15px;
+    margin-bottom: 8px;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+}
+input[type="text"], input[type="password"], input[type="email"],input[type="tel"] ,input[type="date"]{
+    width: 250px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #f5f1f1;
+}
+ } */

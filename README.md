@@ -1,5 +1,5 @@
 # Starbucks-Website
-Starbucks coffee ordering site (Still Improving)
+Starbucks coffee ordering site
 
 Technologies I used in this project:
 -

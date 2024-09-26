@@ -11,23 +11,12 @@ Technologies I used in this project:
 DATABASE DESIGN
 -
 ![image](https://github.com/sudeguluzum/Starbucks-Website/assets/128133604/c288a6de-c253-4fe7-9934-55d667fcb084)
+![Ekran Görüntüsü (228)](https://github.com/user-attachments/assets/50c4f75e-99cd-4172-8ef0-aa1e6cea7dfc)
 
 
 HOME PAGE
 -
-![image](https://github.com/sudeguluzum/Starbucks-Website/assets/128133604/208a4863-54e4-48b3-8f81-fed346a0cbb4)
-
-SHOP PAGE
--
-![image](https://github.com/sudeguluzum/Starbucks-Website/assets/128133604/2ae14363-27f2-4ca6-82ef-6506e51adc2d)
-
-ABOUT US AND CONTACT PAGES
--
-![image](https://github.com/sudeguluzum/Starbucks-Website/assets/128133604/635a978b-a57c-41d8-943b-9c2913d0f176)
-
-HOME PAGE AFTER LOGIN
--
-![image](https://github.com/sudeguluzum/Starbucks-Order-Website/assets/128133604/40a60c19-b0f7-4072-8d73-b7e9eb58940a)
+![screencapture-localhost-Starbucks-html-2024-09-26-18_23_33](https://github.com/user-attachments/assets/a8154563-94c2-4835-b719-eb11e66a6338)
 
 USER INFO PAGE
 -
